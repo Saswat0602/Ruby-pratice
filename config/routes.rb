@@ -5,8 +5,8 @@ Rails.application.routes.draw do
       delete 'logout'
     end
   end
+  
   resources :courses
-
   resources :students
   resources :employees
   root to: 'students#index'
